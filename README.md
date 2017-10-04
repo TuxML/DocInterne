@@ -15,7 +15,7 @@ Elle est [disponible ici.](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.
 - [Présentation du projet JHipster](https://docs.google.com/presentation/d/1574Y1wnw07aOXiuR2xGuureC5WNYfHnr_4UD1IPYOH8/edit#slide=id.g1b80b90d81_4_37) : Projet dont l'idée est similaire mais appliquée à un environnement et lot d'options différent, un framework Web. (Google Slides)
 - [Un système d'automatisation de test de d'Intégration Continue pour le kernel Linux](https://github.com/autotest/autotest) et sa [documentation associée.](http://autotest.readthedocs.io/en/latest/) Ainsi qu'un [lot de tests](https://github.com/autotest/autotest-client-tests) compatibles et Open Source
 - [Un wiki pouvant éventuellement contenir des informations sur certaines des propriétés et performances à évaluer](http://elinux.org/Main_Page)
-
+- [La liste des dépendances requises pour la compilation automatique du noyau Linux](https://www.kernel.org/doc/html/v4.11/process/changes.html) : Liste minimale des packages (exhaustive à priori ?) et leurs versions minimales pour compiler
 
 
 

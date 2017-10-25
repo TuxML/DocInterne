@@ -1,7 +1,8 @@
 # Documentation Interne - Projet TuxML
+
 Un repertoire pour stocker les photos, les diagrammes, les liens vers les documents voire les documents même aidant à la réalisation du projet TuxML
 
-## Version de travail du kernel
+## Version de travail du kernel
 
 Afin de simplifier le travail nous avons pour le moment fixé la version du kernel Linux sur laquelle on va travailler, la `4.13.3`.
 
@@ -16,6 +17,3 @@ Elle est [disponible ici.](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.
 - [Un système d'automatisation de test de d'Intégration Continue pour le kernel Linux](https://github.com/autotest/autotest) et sa [documentation associée.](http://autotest.readthedocs.io/en/latest/) Ainsi qu'un [lot de tests](https://github.com/autotest/autotest-client-tests) compatibles et Open Source
 - [Un wiki pouvant éventuellement contenir des informations sur certaines des propriétés et performances à évaluer](http://elinux.org/Main_Page)
 - [La liste des dépendances requises pour la compilation automatique du noyau Linux](https://www.kernel.org/doc/html/v4.11/process/changes.html) : Liste minimale des packages (exhaustive à priori ?) et leurs versions minimales pour compiler
-
-
-

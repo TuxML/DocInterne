@@ -10,8 +10,7 @@ Elle est [disponible ici.](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.
 
 ## Liens hors *GitHub*
 
-- [Le lien Overleaf du rapport]
-(https://www.overleaf.com/12500248krqbcdxjpvmn)
+- [Le lien Overleaf du rapport](https://www.overleaf.com/12500248krqbcdxjpvmn)
 - [Les slides de présentation du projet lors du choix initial](https://docs.google.com/presentation/d/1u2ld1jwbyhEq0lPz3XYv3FyrxmFLfgvJeuojS9FXvEw/edit#slide=id.p)
 - [Document de présentation du projet](https://docs.google.com/document/d/1r7q-wy94Dqasbi7R_Di7lzOsMI3_uryRaRMorFCdeEA/edit) (Google Doc)
 - [Fiche explicative initiale avec réferences bibliographiques](https://docs.google.com/document/d/1Qs9dYQNbghcK64raqplQ6asow-b93GPkYMow-SwqY5Y/edit#) (Google Doc)

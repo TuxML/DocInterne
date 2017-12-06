@@ -17,3 +17,7 @@ Elle est [disponible ici.](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.
 - [Un système d'automatisation de test de d'Intégration Continue pour le kernel Linux](https://github.com/autotest/autotest) et sa [documentation associée.](http://autotest.readthedocs.io/en/latest/) Ainsi qu'un [lot de tests](https://github.com/autotest/autotest-client-tests) compatibles et Open Source
 - [Un wiki pouvant éventuellement contenir des informations sur certaines des propriétés et performances à évaluer](http://elinux.org/Main_Page)
 - [La liste des dépendances requises pour la compilation automatique du noyau Linux](https://www.kernel.org/doc/html/v4.11/process/changes.html) : Liste minimale des packages (exhaustive à priori ?) et leurs versions minimales pour compiler
+
+## Notes
+
+Le logo du projet mis à disposition dans le dossier image est composé d'éléments modifiés des emojis Noto mis à disposition sous la licence [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE).

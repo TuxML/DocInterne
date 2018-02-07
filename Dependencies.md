@@ -10,7 +10,7 @@ L'installation manuelle des dépendances, lors que l'on veut effectuer des compi
 - Le nombre de dépendances est assez important.Il est difficile de trouver une liste exhaustive. Il est probable que la liste de dépendance évolue dans le temps au fur et à mesure que le noyau évolue.
 - Différentes distributions ont des paquets requis au nom différent.
 - Certains paquets n'existent que sur certaines distributions.
-- Les options ont une influence sur les dépendances requises.
+- Les options ont une influence sur les dépendances requises. Voici un exemple issus des logs de compilation :  ** *Makefile:936: “Cannot use CONFIG_STACK_VALIDATION, please install libelf-dev, libelf-devel or elfutils-libelf-devel” * **
 
 Du point de vue du Machine Learning c'est un problème de classification.
 
@@ -52,8 +52,8 @@ On peut alors effectuer plein de compilation et obtenir une structure qui fait c
 
 Voici la forme simplifiée d'une entrée :
 
-|option1|...| option N | Configuration materielle et logicielle|Missing files encountered | Missing packages installed |Resolution successfull
------------- | ------------- | -------------
-|val1|val2| val N| (CPU, disque dur, distribution, version GCC, etc...)  | file1.h | ['pck1', 'pck2'] | true
+option1|...| option N | Configuration materielle et logicielle|Missing files encountered | Missing packages installed |Resolution successfull
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------  
+val1|val2| val N| (CPU, disque dur, distribution, version GCC, etc...)  | file1.h | ['pck1', 'pck2'] | true
 
 A partir d'une liste d'entré, on peut utiliser le machine learning pour tenter d'établir des corrélation entre des options et des paquets requis. On peut déterminer que tel ou tel paquet n'est requis que si telle ou telle option est activée. Même sans machine learning il est possible d'extraire de l'information utile : les paquets qui sont installés à chaque compilation sont facilement détectables et peuvent être ajoutés à la liste minimale de dépendances requises.

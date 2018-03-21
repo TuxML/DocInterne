@@ -15,6 +15,7 @@ En règle général ce n'est pas à celui qui a ouvert l'*issue* qui met les ét
   - *moderate* : Un bug affectant le programme et nuisant à son bon fonctionnement.
   - *minor* : Bug ou problème mineur. Peut désigner des problèmes d'affichage ou des comportement inattendus du programme ne résultant pas en un arrêt inattendu.
 - **Etiquettes descriptives** :
+  - *Do Not Merge :no_entry:* : Étiquette couramment abbréviée en "DNM", posée sur une PR pour indiquer qu'en létat la branche étant mergée à la validation de la PR n'est pas prête. Permet ainsi d'ouvrir des PR avant qu'elle soit effectivement prête à être merge par exemple pour débattre ou demander de l'aide. **Peut être aposée par l'ouvreur de la PR.**
   - *duplicate* : Indique que l'*issue* désigne un problème déjà référencé dans une autre *issue*. Accompagne généralement une référence vers l'*issue* mère et une cloture.
   - *enhancement* : Etiquette indiquant qu'une *Pull Request* amène de nouvelles fonctionnalités au programme. **Peut être aposée par l'ouvreur de la PR.**
   - *feature request* : Etiquette indiquant qu'une *issue* n'est pas une description de bugs mais une demande de nouvelles fonctionnalités. Une *issue* marquée ainsi peut ne pas suivre le *template* fourni. **Peut être aposée par l'ouvreur de l'*issue*.**

@@ -1,0 +1,31 @@
+## From scratch :
+
+* Télécharger le kernel linux de votre choix (TuxML a été développé avec la version 4.13.3)
+* Dans le kernel, cloner et setup [Kanalyser](https://github.com/TuxML/Kanalyser) de TuxML
+* Créer une base de données MySQL
+* Importer les structures de tables qui sont dans Kanalyser/tables.sql
+* Créer 3 users :
+  - irma, qui aura les permissions SELECT, INSERT, et UPDATE
+  - typer, qui aura les permissions SELECT, INSERT, UPDATE, DELETE et DROP
+  - csvgen, qui aura les permissions SELECT.
+* Modifier Kanalyser/DBCredentials.py pour ajouter votre base de données selon le template avec le user "typer"
+* Lancer Kanalyser/filltypes.sh
+
+--TODO insérer ici tout ce qui est relatif à projet irma (pour un lancement direct sans docker)
+
+* Cloner et setup [csvgen](https://github.com/TuxML/csvgen) de TuxML
+* Modifier csvgen/DBCredentials.py pour ajouter votre base de données selon le template avec le user "csvgen"
+* Lancer csvgen et récupérer un fichier CSV
+* Installer [Jupyter Notebook](http://jupyter.org)
+* Cloner le dépôt [ML](https://github.com/TuxML/ML) de TuxML
+* Ouvrir ML/stats.ipynb avec Jupyter
+
+## Avec les bases de données existantes
+
+-- TODO insérer ici ce qui est relatif à projet irma (pour un lancement avec docker)
+
+* Ouvrir un navigateur à la page https://tuxml.istic.univ-rennes1.fr/jupyter/
+
+
+
+
